@@ -260,6 +260,13 @@ authedClient.getAccountHistory(accountID, callback);
 authedClient.getAccountHistory(accountID, { before: 3000 }, callback);
 ```
 
+* [`getAccountTransfers`](https://docs.gdax.com/#get-account-transfers)
+
+```js
+const accountID = '7d0f7d8e-dd34-4d9c-a846-06f431c381ba';
+authedClient.getAccountTransfers(accountID, callback);
+```
+
 * [`getAccountHolds`](https://docs.gdax.com/#get-holds)
 
 ```js
